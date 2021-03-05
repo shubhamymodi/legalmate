@@ -65,13 +65,13 @@ export default function Menu() {
 </div>
 </nav> */}
 
-<Navbar style={{zIndex:"+10",position:"absolute",top:"0",width:"100%",backgroundColor:'rgb(0,0,0,0.8)'}} sticky="top"  expand="lg">
+<Navbar style={{zIndex:"+10",position:"absolute",top:"0",width:"100%",backgroundColor:'rgb(0,0,0,0.8)'}} fixed="top"  expand="lg">
   <Navbar.Brand style={{paddingRight:"20px"}} href="/"> <span className="mentor">Legal</span> <span className="mate"> Mate</span></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link style={{paddingRight:"20px"}} className="loginBtn" href="/">Home</Nav.Link>
-      <Nav.Link style={{paddingRight:"20px"}} className="loginBtn" href="/course">All Lawyers</Nav.Link>
+      <Nav.Link style={{paddingRight:"20px"}} className="loginBtn" href="/lawyers">All Lawyers</Nav.Link>
       <Nav.Link style={{paddingRight:"20px"}} className="loginBtn" href="/lawyers/bankruptcy">Bankruptcy</Nav.Link>
       <Nav.Link style={{paddingRight:"20px"}} className="loginBtn" href="/lawyers/corporate">Corporate</Nav.Link>
       <Nav.Link style={{paddingRight:"20px"}} className="loginBtn" href="/lawyers/civil">Civil Rights</Nav.Link>
