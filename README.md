@@ -8,12 +8,12 @@ Premium plans, if a user wants us to hire on behalf of them.
 **For live app link:** https://legalmate1.herokuapp.com/
 
 **Technologies:**
-Reactjs
-Material UI
-Reactstrap
-React Router
-Firebase
-Cloudinary
+Reactjs,
+Material UI,
+Reactstrap,
+React Router,
+Firebase,
+Cloudinary,
 And other npm libraries…
 
 
